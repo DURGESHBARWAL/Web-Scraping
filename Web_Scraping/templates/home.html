@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Repositoies</title>
+  </head>
+  <body>
+    <h1>Repositories List</h1>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Language</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for repo in repos %}
+          <tr>
+            <td>
+              {{ repo.name }}
+            </td>
+            <td>
+		<small style="color: #000000">{{ repo.desc }}</small>
+	    </td>
+            <td>
+		{{ repo.lang }}
+	    </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
