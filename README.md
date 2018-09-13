@@ -22,3 +22,6 @@ The Content Extracted contains "Repo name", "Description of Repo", "Language of 
      
         In a Web browser, open the http://127.0.0.1:8000 URL
 
+## Output Screenshot in Tabular Form
+
+![test](https://user-images.githubusercontent.com/22114276/45460184-906e1900-b719-11e8-9653-7e3952fe996f.png)
